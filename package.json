@@ -1,0 +1,28 @@
+{
+  "name": "tiktokdl",
+  "version": "1.0.0",
+  "description": "download tiktoks with multiple options",
+  "main": "index.js",
+  "scripts": {
+    "tiktokdl": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karim0sec/tiktokdl"
+  },
+  "keywords": [
+    "tiktok-downloader",
+    "tiktok-nowatermark",
+    "bulk-tiktok"
+  ],
+  "author": "Karim Elsayed",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^8.2.4",
+    "node-fetch": "^2.6.7",
+    "puppeteer": "^19.0.0",
+    "puppeteer-extra": "^3.3.4",
+    "user-agents": "^1.0.1175"
+  }
+}
